@@ -14,7 +14,8 @@
     ls = log --pretty=format:"%C(green)%h\\ %C(yellow)[%ad]%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=relative
     last = log -1 HEAD
     mm = merge --no-ff
-    st = status --short --branch
+    br = status --short --branch
+    st = status 
     tg = tag -a
     pu = push --tags
     un = reset --hard HEAD
